@@ -4,6 +4,10 @@
     padding: 0;
     color: white;
 }
+
+.flex {
+    display: flex;
+}
 /* ---- Header */
 header {
     height: 80px;
@@ -26,7 +30,7 @@ header {
 
 /* ---- MAIN */
 main {
-    height: calc(100vh - 180px);
+    height: calc(100vh - 160px);
     background-color: black;
     overflow: scroll;
     display: flex;
@@ -53,7 +57,39 @@ main {
 
 /* ---- FOOTER */
 footer {
-    height: 100px;
+    height: 80px;
     background-color:#222222;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
+.user {
+    /* background-color: blue; */
+    width: 250px;
+}
+.meeting {
+    background-color: blue;
+    width: 700px;
+}
+
+.end_meeting {
+    background-color: #4a4a4a;
+    width: 200px;
+    color: red;
+    justify-content: center;
+    align-items: center;
+}
+.interaction {
+    align-items: center;
+    margin-right: 10px;
+}
+.icon_card_f {
+    text-align: center;
+    margin-right: 10px;
+
+}
+.icon_footer {
+    font-size: 30px;
+}
+/* icon_footer
+name_icon_footer */
