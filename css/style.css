@@ -4,7 +4,7 @@
     padding: 0;
     color: white;
 }
-
+/* ---- Header */
 header {
     height: 80px;
     background-color: black;
@@ -24,12 +24,34 @@ header {
     padding: 8x 5px;
 }
 
+/* ---- MAIN */
 main {
     height: calc(100vh - 180px);
     background-color: black;
-    /* overflow: scroll; */
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+
+.container {
+    width: 250px;
+    height: 150px;
+    background-color: aqua;
+    margin: 5px;
+    position: relative;
+    
+}
+
+.username {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.500);
+}
+
+/* ---- FOOTER */
 footer {
     height: 100px;
     background-color:#222222;
