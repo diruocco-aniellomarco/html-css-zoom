@@ -59,22 +59,21 @@ main {
 footer {
     height: 80px;
     background-color:#222222;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
 .user {
-    /* background-color: blue; */
     width: 250px;
+    margin:10px;
 }
 .meeting {
-    /* background-color: blue; */
     width: 700px;
+    margin:10px;
 }
 
 .end_meeting {
     background-color: #4a4a4a;
-    width: 200px;
+    width: 150px;
     color: red;
     justify-content: center;
     align-items: center;
@@ -85,7 +84,7 @@ footer {
 }
 .icon_card_f {
     text-align: center;
-    margin-right: 10px;
+    
 
 }
 .icon_footer {
@@ -95,5 +94,3 @@ footer {
 #share_screen {
     color: green;
 }
-/* icon_footer
-name_icon_footer */
