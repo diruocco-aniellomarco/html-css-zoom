@@ -68,7 +68,7 @@ footer {
     width: 250px;
 }
 .meeting {
-    background-color: blue;
+    /* background-color: blue; */
     width: 700px;
 }
 
@@ -90,6 +90,10 @@ footer {
 }
 .icon_footer {
     font-size: 30px;
+}
+
+#share_screen {
+    color: green;
 }
 /* icon_footer
 name_icon_footer */
